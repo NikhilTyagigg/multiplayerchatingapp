@@ -13,3 +13,11 @@
   transform: scale(1.1);
   box-shadow: 0 0 15px rgba(0, 255, 255, 1);
 }
+@keyframes snakeMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
