@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import "leaflet/dist/leaflet.css";
 import characterIcon from "../assets/hey.gif";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://multiplayerchatingapp-1.onrender.com");
 
 const GameMap = () => {
   const [users, setUsers] = useState({});
