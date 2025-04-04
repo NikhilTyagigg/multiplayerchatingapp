@@ -1,0 +1,15 @@
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+}
+.custom-icon {
+  border-radius: 50%;
+  background: none; /* Removes any unwanted white background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  mix-blend-mode: multiply;
+}
+
+.custom-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 1);
+}
