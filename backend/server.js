@@ -10,7 +10,7 @@ const io = socketIo(server, { cors: { origin: "*" } });
 
 app.use(cors());
 app.use(express.json());
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 let users = {}; // Stores connected users and positions
 
 function isClose(pos1, pos2, threshold = 0.001) {
